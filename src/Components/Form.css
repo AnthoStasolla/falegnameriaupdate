@@ -1,0 +1,23 @@
+.form-container {
+  padding: 2rem;
+  color: #f0dcc7;
+  font-family: "Mulish", sans-serif;
+  font-size: 1.3rem;
+}
+.text-contatti {
+  text-align: center;
+  color: #f0dcc7;
+  font-family: "Mulish", sans-serif;
+  margin: 2rem 0rem;
+  font-weight: bold;
+  text-shadow: 2px 3px 4px black;
+}
+
+@media screen and (max-width: 640px) {
+  .form-container {
+    font-size: 1rem;
+  }
+  .text-contatti {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,23 @@
+.content-text {
+  color: #f0dcc7;
+  font-size: 2rem;
+  text-shadow: 2px 2px 2px black;
+  text-decoration: underline;
+}
+.span-color {
+  color: #e47a19;
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 640px) {
+  .content-text {
+    color: #f0dcc7;
+    font-size: 1.3rem;
+    text-shadow: 2px 2px 2px black;
+    text-decoration: underline;
+  }
+  .span-color {
+    color: #e47a19;
+    font-size: 2rem;
+  }
+}
