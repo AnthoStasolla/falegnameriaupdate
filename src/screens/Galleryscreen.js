@@ -3,6 +3,7 @@ import Hero from "../Components/Hero";
 import heroimg from "../assets/immagini/herohome.jpg";
 import Gallery from "../Components/Gallery";
 import { Link } from "react-router-dom";
+import { AiOutlineArrowDown } from "react-icons/ai";
 
 const Galleryscreen = () => {
   return (
@@ -13,8 +14,13 @@ const Galleryscreen = () => {
           <span className="span-color">Ambienti irregolari</span> impossibili da
           arredare?
         </h1>
-        <p>Dai un'occhiata alla Galleria</p>
-        <Link to="/contatti" className="btn">
+        <p>Ci pensiamo noi...</p>
+        <p>
+          ...visita la <span className="span-color">Galleria</span> qui sotto{" "}
+          <AiOutlineArrowDown style={{ color: "#442607" }} size={40} />
+        </p>
+
+        <Link to="/contatti" className="btn btn-light p-3">
           Contattaci per un preventivo
         </Link>
       </Hero>

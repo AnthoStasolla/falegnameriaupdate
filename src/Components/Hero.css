@@ -26,12 +26,14 @@
 .hero-img h1 {
   color: #f0dcc7;
   font-size: 2.6rem;
-  text-shadow: 2px 2px 2px black;
+  text-shadow: 2px 3px 3px black;
+  font-family: "Mulish", sans-serif;
 }
 .hero-img p {
   color: #f0dcc7;
   font-size: 1.8rem;
   text-shadow: 2px 2px 2px black;
+  font-family: "Mulish", sans-serif;
 }
 @media screen and (max-width: 640px) {
   .hero-img h1 {

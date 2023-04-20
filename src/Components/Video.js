@@ -15,10 +15,10 @@ const Video = () => {
           <p>Arredamenti Su Misura</p>
 
           <div>
-            <Link to="/about" className="btn">
+            <Link to="/contatti" className="btn">
               Contattaci
             </Link>
-            <Link to="/contact" className="btn btn-light">
+            <Link to="/gallery" className="btn btn-light">
               Visita la Galleria
             </Link>
           </div>

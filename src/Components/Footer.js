@@ -62,9 +62,9 @@ const Footer = () => {
           className="text-center p-3"
           style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
         >
-          © 2020 Copyright:_
-          <a className="text-white" href="https://mdbootstrap.com/">
-            MDBootstrap.com - © 2018 Falegnameria Franco Stasolla © 2023
+          <a className="text-white fs-4" href="https://mdbootstrap.com/">
+            © 2020 Copyright:_ MDBootstrap.com - © 2018 Falegnameria Franco
+            Stasolla © 2023
           </a>
           <SocialBar />
         </div>

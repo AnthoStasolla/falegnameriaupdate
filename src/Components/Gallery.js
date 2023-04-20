@@ -13,7 +13,17 @@ import gallery11 from "../assets/immagini/gallery11.jpeg";
 import gallery12 from "../assets/immagini/gallery12.jpeg";
 import gallery13 from "../assets/immagini/carosel.jpeg";
 import gallery14 from "../assets/immagini/cucinahome.jpeg";
-import gallery15 from "../assets/immagini/bagnohome.jpeg";
+import gallery15 from "../assets/immagini/galleryii99.jpeg";
+import gallery16 from "../assets/immagini/galleryii9.jpeg";
+import gallery17 from "../assets/immagini/galleryi2.jpeg";
+import gallery18 from "../assets/immagini/galleryi3.jpeg";
+import gallery19 from "../assets/immagini/galleryi4.jpeg";
+import gallery20 from "../assets/immagini/galleryii6.jpeg";
+import gallery21 from "../assets/immagini/galleryii00.jpeg";
+import gallery23 from "../assets/immagini/galleryii11.jpeg";
+import gallery24 from "../assets/immagini/galleryii12.jpeg";
+import gallery25 from "../assets/immagini/galleryii13.jpeg";
+import gallery26 from "../assets/immagini/galleryii14.jpeg";
 
 const Gallery = () => {
   return (
@@ -41,7 +51,7 @@ const Gallery = () => {
           <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
             <img
               src={gallery1}
-              className="w-100 rounded mb-4"
+              className="w-100 rounded mb-4 photo immagine"
               alt="foto"
               style={{
                 boxShadow: "2px 1px 4px #ff8c00",
@@ -50,7 +60,7 @@ const Gallery = () => {
 
             <img
               src={gallery9}
-              className="w-100 rounded mb-4"
+              className="w-100 rounded mb-4 photo immagine"
               alt="foto2"
               style={{
                 boxShadow: "2px 2px 4px #ff8c00",
@@ -58,7 +68,7 @@ const Gallery = () => {
             />
             <img
               src={gallery2}
-              className="w-100 rounded mb-4"
+              className="w-100 rounded mb-4 photo immagine"
               alt="foto7"
               style={{
                 boxShadow: "2px 1px 4px #ff8c00",
@@ -66,7 +76,7 @@ const Gallery = () => {
             />
             <img
               src={gallery12}
-              className="w-100 rounded mb-4"
+              className="w-100 rounded mb-4 photo immagine"
               alt="foto7"
               style={{
                 boxShadow: "2px 1px 4px #ff8c00",
@@ -74,7 +84,31 @@ const Gallery = () => {
             />
             <img
               src={gallery13}
-              className="w-100 rounded mb-4"
+              className="w-100 rounded mb-4 photo immagine"
+              alt="foto7"
+              style={{
+                boxShadow: "2px 1px 4px #ff8c00",
+              }}
+            />
+            <img
+              src={gallery17}
+              className="w-100 rounded mb-4 photo immagine"
+              alt="foto7"
+              style={{
+                boxShadow: "2px 1px 4px #ff8c00",
+              }}
+            />
+            <img
+              src={gallery19}
+              className="w-100 rounded mb-4 photo immagine"
+              alt="foto7"
+              style={{
+                boxShadow: "2px 1px 4px #ff8c00",
+              }}
+            />
+            <img
+              src={gallery21}
+              className="w-100 rounded mb-4 photo immagine"
               alt="foto7"
               style={{
                 boxShadow: "2px 1px 4px #ff8c00",
@@ -85,7 +119,7 @@ const Gallery = () => {
           <div className="col-lg-4 mb-4 mb-lg-0">
             <img
               src={gallery4}
-              className="w-100 rounded mb-4"
+              className="w-100 rounded mb-4 photo immagine"
               alt="foto3"
               style={{
                 boxShadow: "2px 1px 4px #ff8c00",
@@ -94,7 +128,7 @@ const Gallery = () => {
 
             <img
               src={gallery5}
-              className="w-100 rounded mb-4"
+              className="w-100 rounded mb-4 photo immagine"
               alt="foto4"
               style={{
                 boxShadow: "2px 1px 4px #ff8c00",
@@ -102,7 +136,7 @@ const Gallery = () => {
             />
             <img
               src={gallery3}
-              className="w-100 rounded mb-4"
+              className="w-100 rounded mb-4 photo immagine"
               alt="foto7"
               style={{
                 boxShadow: "2px 1px 4px #ff8c00",
@@ -110,7 +144,31 @@ const Gallery = () => {
             />
             <img
               src={gallery11}
-              className="w-100 rounded mb-4"
+              className="w-100 rounded mb-4 photo immagine"
+              alt="foto7"
+              style={{
+                boxShadow: "2px 1px 4px #ff8c00",
+              }}
+            />
+            <img
+              src={gallery20}
+              className="w-100 rounded mb-4 photo immagine"
+              alt="foto7"
+              style={{
+                boxShadow: "2px 1px 4px #ff8c00",
+              }}
+            />
+            <img
+              src={gallery24}
+              className="w-100 rounded mb-4 photo immagine"
+              alt="foto7"
+              style={{
+                boxShadow: "2px 1px 4px #ff8c00",
+              }}
+            />
+            <img
+              src={gallery16}
+              className="w-100 rounded mb-4 photo immagine"
               alt="foto7"
               style={{
                 boxShadow: "2px 1px 4px #ff8c00",
@@ -118,7 +176,15 @@ const Gallery = () => {
             />
             <img
               src={gallery15}
-              className="w-100 rounded mb-4"
+              className="w-100 rounded mb-4 photo immagine"
+              alt="foto7"
+              style={{
+                boxShadow: "2px 1px 4px #ff8c00",
+              }}
+            />
+            <img
+              src={gallery26}
+              className="w-100 rounded mb-4 photo immagine"
               alt="foto7"
               style={{
                 boxShadow: "2px 1px 4px #ff8c00",
@@ -129,7 +195,7 @@ const Gallery = () => {
           <div className="col-lg-4 mb-4 mb-lg-0">
             <img
               src={gallery6}
-              className="w-100 rounded mb-4"
+              className="w-100 rounded mb-4 photo immagine"
               alt="foto5"
               style={{
                 boxShadow: "2px 1px 4px #ff8c00",
@@ -138,7 +204,7 @@ const Gallery = () => {
 
             <img
               src={gallery7}
-              className="w-100 rounded mb-4"
+              className="w-100 rounded mb-4 photo immagine"
               alt="foto6"
               style={{
                 boxShadow: "2px 1px 4px #ff8c00",
@@ -146,7 +212,7 @@ const Gallery = () => {
             />
             <img
               src={gallery8}
-              className="w-100 rounded mb-4"
+              className="w-100 rounded mb-4 photo immagine"
               alt="foto7"
               style={{
                 boxShadow: "2px 1px 4px #ff8c00",
@@ -154,7 +220,7 @@ const Gallery = () => {
             />
             <img
               src={gallery10}
-              className="w-100 rounded mb-4"
+              className="w-100 rounded mb-4 photo immagine"
               alt="foto7"
               style={{
                 boxShadow: "2px 1px 4px #ff8c00",
@@ -162,7 +228,32 @@ const Gallery = () => {
             />
             <img
               src={gallery14}
-              className="w-100 rounded mb-4"
+              className="w-100 rounded mb-4 photo immagine"
+              alt="foto7"
+              style={{
+                boxShadow: "2px 1px 4px #ff8c00",
+              }}
+            />
+            <img
+              src={gallery18}
+              className="w-100 rounded mb-4 photo immagine"
+              alt="foto7"
+              style={{
+                boxShadow: "2px 1px 4px #ff8c00",
+              }}
+            />
+            <img
+              src={gallery25}
+              className="w-100 rounded mb-4 photo immagine"
+              alt="foto7"
+              style={{
+                boxShadow: "2px 1px 4px #ff8c00",
+              }}
+            />
+
+            <img
+              src={gallery23}
+              className="w-100 rounded mb-4 photo immagine"
               alt="foto7"
               style={{
                 boxShadow: "2px 1px 4px #ff8c00",

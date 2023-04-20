@@ -1,7 +1,7 @@
 import React from "react";
 import Hero from "../Components/Hero";
 import Form from "../Components/Form";
-import imgcontatti from "../assets/immagini/bagnohome.jpeg";
+import imgcontatti from "../assets/immagini/cucinahome.jpeg";
 
 const Contattiscreen = () => {
   return (

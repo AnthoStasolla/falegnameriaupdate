@@ -1,11 +1,3 @@
-.img-fade-in {
-  opacity: 40%;
-}
-
-.img-fade-in:hover {
-  opacity: 100%;
-  transition: opacity 0.5s;
-}
 .zoom {
   width: 400px;
   height: 350px;
