@@ -7,7 +7,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: rgba(68, 38, 9, 0.9) !important;
+  background: rgba(68, 38, 9) !important;
 }
 
 ul {
@@ -27,4 +27,13 @@ code {
   justify-content: center;
   gap: 3rem;
   margin-top: 15px;
+}
+
+.text-error {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
 }
