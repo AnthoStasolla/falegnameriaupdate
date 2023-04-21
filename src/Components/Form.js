@@ -52,6 +52,7 @@ const Form = () => {
               className="form-check-input me-2"
               type="checkbox"
               value=""
+              name="input"
               id="form4Example4"
               placeholder="Message here..."
             />
