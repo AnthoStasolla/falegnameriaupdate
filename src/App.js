@@ -18,7 +18,7 @@ function App() {
           <Route path="/about" element={<Aboutscreen />} />
           <Route path="/gallery" element={<Galleryscreen />} />
           <Route path="/contatti" element={<Contattiscreen />} />
-          <Route path="*" element={<Errorscreen />} />
+          <Route path="/*" element={<Errorscreen />} />
         </Routes>
         <Footer />
       </Router>
