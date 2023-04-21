@@ -39,7 +39,7 @@ const Footer = () => {
               </h5>
               <p className="text-center text-footer">
                 Dal Lunedì al Venerdì <br />
-                Mattina: 08.00 - 12.30 | Pomeriggio: 14.30 - 19.00.
+                Mattina: 08.00 - 12.30 | Pomeriggio: 14.30 - 17.30
                 <br /> Domenica chiuso
               </p>
             </div>
@@ -50,9 +50,9 @@ const Footer = () => {
               </h5>
 
               <p className="text-center text-footer">
-                354/2256426565 <br /> puoi anche contattarci scrivendo su
-                Whatsapp <FaWhatsapp className="icon-wa" />
-                <br /> o inviarci una mail: francosta@gmail.com
+                335/8161937 <br /> puoi anche contattarci scrivendo su Whatsapp{" "}
+                <FaWhatsapp className="icon-wa" />
+                <br /> o inviarci una mail: francostasolla1962@gmail.com
               </p>
             </div>
           </div>
@@ -63,8 +63,8 @@ const Footer = () => {
           style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
         >
           <a className="text-white fs-4" href="https://mdbootstrap.com/">
-            © 2020 Copyright:_ MDBootstrap.com - © 2018 Falegnameria Franco
-            Stasolla © 2023
+            Copyright: MDBootstrap.com - © 2018 || Falegnameria Franco Stasolla
+            - © 2023
           </a>
           <SocialBar />
         </div>
