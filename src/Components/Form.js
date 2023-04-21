@@ -6,16 +6,30 @@ const Form = () => {
     <>
       <h1 className="text-contatti">INVIACI UNA MAIL</h1>
       <div className="container">
-        <form className="form-container">
+        <form
+          className="form-container"
+          action="https://getform.io/f/52b40f2e-4e64-40af-9fd3-95e4afdeddec"
+          method="POST"
+        >
           <div className="form-outline mb-4">
-            <input type="text" id="form4Example1" className="form-control" />
+            <input
+              type="text"
+              id="form4Example1"
+              name="nome"
+              className="form-control"
+            />
             <label className="form-label" htmlFor="form4Example1">
               NOME E COGNOME
             </label>
           </div>
 
           <div className="form-outline mb-4">
-            <input type="email" id="form4Example2" className="form-control" />
+            <input
+              type="email"
+              id="form4Example2"
+              name="email"
+              className="form-control"
+            />
             <label className="form-label" htmlFor="form4Example2">
               EMAIL
             </label>
@@ -26,6 +40,7 @@ const Form = () => {
               className="form-control"
               id="form4Example3"
               rows="4"
+              name="messaggio"
             ></textarea>
             <label className="form-label" htmlFor="form4Example3">
               SCRIVI IL TUO MESSAGGIO
